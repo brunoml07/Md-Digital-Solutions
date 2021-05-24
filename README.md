@@ -1,11 +1,11 @@
 # MdDigitalSolutions Prueba tecnica
-# Realice la prueba tecnica a creando un pequeño proyecto de Angular a traves del CLi de Angular,
+# Hice la prueba tecnica a creando un pequeño proyecto de Angular a traves del CLI de Angular,
 # para verel proyecto siga los siguente pasos :
 # - Instale las dependencia con el comando : 
 npm i
-# - levante proyecto con el comando: 
+# - Levantar proyecto con el comando: 
 ng serve 
-# - ingresa a la ULR:
+# - Ingresa a la ULR:
 http://localhost:4200/#/ 
 # Aqui podran observar una tabla, adaptable paginas a web, mobile y tablet. 
 # - Ahora ingresa a la ULR:
