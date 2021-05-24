@@ -1,27 +1,27 @@
-# MdDigitalSolutions
+# MdDigitalSolutions Prueba tecnica
+# Realice la prueba tecnica a creando un pequeño proyecto de Angular a traves del CLi de Angular,
+# para verel proyecto siga los siguente pasos :
+# - Instale las dependencia con el comando : 
+npm i
+# - levante proyecto con el comando: 
+ng serve 
+# - ingresa a la ULR:
+http://localhost:4200/#/ 
+# Aqui podran observar una tabla, adaptable paginas a web, mobile y tablet. 
+# - Ahora ingresa a la ULR:
+http://localhost:4200/#/video
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+# Aqui podran obsevar un reproductor de videos y un texto adaptable a paginas web, mobile y tablet.
 
-## Development server
+# CODIGO 
+# el codigo del proyecto no encontraras en la ruta src/app 
+# la capeta R2 posee el codigo de la tabla de la Solicitud R2, para completar la tabla utlice la 
+# REST API: https://mediastack.com/product de la solicitud R4 que trae noticias en directo (Van actualizando con el tiempo ) 
+# en la Capeta Service esta el servicio creado para traer la información de la  REST API: https://mediastack.com/product .
+# la Carpeta R3 posee el codigo de la Solicitud R3. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

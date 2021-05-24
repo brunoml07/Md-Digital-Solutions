@@ -1,0 +1,23 @@
+
+<table>
+  <thead>
+    <tr>
+      <th>Author</th>
+      <th>Title</th>
+      <th>Source</th>
+      <th>Category</th>
+      <th>Lenguage</th>
+      <th>country</th>
+    </tr>
+  </thead>
+    <tbody >
+      <tr *ngFor="let noticia of noticias;  let i=index" >
+        <td *ngIf=" i < 14">{{noticia.author}} </td>
+        <td *ngIf=" i < 14">{{noticia.title}}</td>
+        <td *ngIf=" i < 14"> {{noticia.source}}</td>
+        <td *ngIf=" i < 14"> {{noticia.category}} </td>
+        <td *ngIf=" i < 14">{{noticia.language}} </td>
+        <td *ngIf=" i < 14">{{noticia.country}}</td>
+      </tr>
+    </tbody>
+</table>
